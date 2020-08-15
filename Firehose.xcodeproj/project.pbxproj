@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7313865C24E8759600E39074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313865B24E8759600E39074 /* AppDelegate.swift */; };
+		7313865E24E8759600E39074 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313865D24E8759600E39074 /* ContentView.swift */; };
+		7313866024E8759700E39074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7313865F24E8759700E39074 /* Assets.xcassets */; };
+		7313866324E8759700E39074 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7313866224E8759700E39074 /* Preview Assets.xcassets */; };
+		7313866624E8759700E39074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7313866424E8759700E39074 /* Main.storyboard */; };
+		7313867224E8759700E39074 /* FirehoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313867124E8759700E39074 /* FirehoseTests.swift */; };
+		7313867D24E8759700E39074 /* FirehoseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313867C24E8759700E39074 /* FirehoseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7313866E24E8759700E39074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7313865024E8759600E39074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7313865724E8759600E39074;
+			remoteInfo = Firehose;
+		};
+		7313867924E8759700E39074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7313865024E8759600E39074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7313865724E8759600E39074;
+			remoteInfo = Firehose;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7313865824E8759600E39074 /* Firehose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firehose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7313865B24E8759600E39074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7313865D24E8759600E39074 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7313865F24E8759700E39074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7313866224E8759700E39074 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7313866524E8759700E39074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7313866724E8759700E39074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7313866824E8759700E39074 /* Firehose.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Firehose.entitlements; sourceTree = "<group>"; };
+		7313866D24E8759700E39074 /* FirehoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirehoseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7313867124E8759700E39074 /* FirehoseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirehoseTests.swift; sourceTree = "<group>"; };
+		7313867324E8759700E39074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7313867824E8759700E39074 /* FirehoseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirehoseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7313867C24E8759700E39074 /* FirehoseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirehoseUITests.swift; sourceTree = "<group>"; };
+		7313867E24E8759700E39074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7313865524E8759600E39074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7313866A24E8759700E39074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7313867524E8759700E39074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7313864F24E8759600E39074 = {
+			isa = PBXGroup;
+			children = (
+				7313865A24E8759600E39074 /* Firehose */,
+				7313867024E8759700E39074 /* FirehoseTests */,
+				7313867B24E8759700E39074 /* FirehoseUITests */,
+				7313865924E8759600E39074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7313865924E8759600E39074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7313865824E8759600E39074 /* Firehose.app */,
+				7313866D24E8759700E39074 /* FirehoseTests.xctest */,
+				7313867824E8759700E39074 /* FirehoseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7313865A24E8759600E39074 /* Firehose */ = {
+			isa = PBXGroup;
+			children = (
+				7313865B24E8759600E39074 /* AppDelegate.swift */,
+				7313865D24E8759600E39074 /* ContentView.swift */,
+				7313865F24E8759700E39074 /* Assets.xcassets */,
+				7313866424E8759700E39074 /* Main.storyboard */,
+				7313866724E8759700E39074 /* Info.plist */,
+				7313866824E8759700E39074 /* Firehose.entitlements */,
+				7313866124E8759700E39074 /* Preview Content */,
+			);
+			path = Firehose;
+			sourceTree = "<group>";
+		};
+		7313866124E8759700E39074 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7313866224E8759700E39074 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7313867024E8759700E39074 /* FirehoseTests */ = {
+			isa = PBXGroup;
+			children = (
+				7313867124E8759700E39074 /* FirehoseTests.swift */,
+				7313867324E8759700E39074 /* Info.plist */,
+			);
+			path = FirehoseTests;
+			sourceTree = "<group>";
+		};
+		7313867B24E8759700E39074 /* FirehoseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7313867C24E8759700E39074 /* FirehoseUITests.swift */,
+				7313867E24E8759700E39074 /* Info.plist */,
+			);
+			path = FirehoseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7313865724E8759600E39074 /* Firehose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7313868124E8759700E39074 /* Build configuration list for PBXNativeTarget "Firehose" */;
+			buildPhases = (
+				7313865424E8759600E39074 /* Sources */,
+				7313865524E8759600E39074 /* Frameworks */,
+				7313865624E8759600E39074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Firehose;
+			productName = Firehose;
+			productReference = 7313865824E8759600E39074 /* Firehose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7313866C24E8759700E39074 /* FirehoseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7313868424E8759700E39074 /* Build configuration list for PBXNativeTarget "FirehoseTests" */;
+			buildPhases = (
+				7313866924E8759700E39074 /* Sources */,
+				7313866A24E8759700E39074 /* Frameworks */,
+				7313866B24E8759700E39074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7313866F24E8759700E39074 /* PBXTargetDependency */,
+			);
+			name = FirehoseTests;
+			productName = FirehoseTests;
+			productReference = 7313866D24E8759700E39074 /* FirehoseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7313867724E8759700E39074 /* FirehoseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7313868724E8759700E39074 /* Build configuration list for PBXNativeTarget "FirehoseUITests" */;
+			buildPhases = (
+				7313867424E8759700E39074 /* Sources */,
+				7313867524E8759700E39074 /* Frameworks */,
+				7313867624E8759700E39074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7313867A24E8759700E39074 /* PBXTargetDependency */,
+			);
+			name = FirehoseUITests;
+			productName = FirehoseUITests;
+			productReference = 7313867824E8759700E39074 /* FirehoseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7313865024E8759600E39074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Jefferson Jones";
+				TargetAttributes = {
+					7313865724E8759600E39074 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					7313866C24E8759700E39074 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 7313865724E8759600E39074;
+					};
+					7313867724E8759700E39074 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 7313865724E8759600E39074;
+					};
+				};
+			};
+			buildConfigurationList = 7313865324E8759600E39074 /* Build configuration list for PBXProject "Firehose" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7313864F24E8759600E39074;
+			productRefGroup = 7313865924E8759600E39074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7313865724E8759600E39074 /* Firehose */,
+				7313866C24E8759700E39074 /* FirehoseTests */,
+				7313867724E8759700E39074 /* FirehoseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7313865624E8759600E39074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7313866624E8759700E39074 /* Main.storyboard in Resources */,
+				7313866324E8759700E39074 /* Preview Assets.xcassets in Resources */,
+				7313866024E8759700E39074 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7313866B24E8759700E39074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7313867624E8759700E39074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7313865424E8759600E39074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7313865E24E8759600E39074 /* ContentView.swift in Sources */,
+				7313865C24E8759600E39074 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7313866924E8759700E39074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7313867224E8759700E39074 /* FirehoseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7313867424E8759700E39074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7313867D24E8759700E39074 /* FirehoseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7313866F24E8759700E39074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7313865724E8759600E39074 /* Firehose */;
+			targetProxy = 7313866E24E8759700E39074 /* PBXContainerItemProxy */;
+		};
+		7313867A24E8759700E39074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7313865724E8759600E39074 /* Firehose */;
+			targetProxy = 7313867924E8759700E39074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7313866424E8759700E39074 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7313866524E8759700E39074 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7313867F24E8759700E39074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7313868024E8759700E39074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7313868224E8759700E39074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Firehose/Firehose.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Firehose/Preview Content\"";
+				DEVELOPMENT_TEAM = 37R6FCG424;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Firehose/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffersonjones.Firehose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7313868324E8759700E39074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Firehose/Firehose.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Firehose/Preview Content\"";
+				DEVELOPMENT_TEAM = 37R6FCG424;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Firehose/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffersonjones.Firehose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7313868524E8759700E39074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 37R6FCG424;
+				INFOPLIST_FILE = FirehoseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffersonjones.FirehoseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firehose.app/Contents/MacOS/Firehose";
+			};
+			name = Debug;
+		};
+		7313868624E8759700E39074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 37R6FCG424;
+				INFOPLIST_FILE = FirehoseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffersonjones.FirehoseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firehose.app/Contents/MacOS/Firehose";
+			};
+			name = Release;
+		};
+		7313868824E8759700E39074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 37R6FCG424;
+				INFOPLIST_FILE = FirehoseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffersonjones.FirehoseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Firehose;
+			};
+			name = Debug;
+		};
+		7313868924E8759700E39074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 37R6FCG424;
+				INFOPLIST_FILE = FirehoseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffersonjones.FirehoseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Firehose;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7313865324E8759600E39074 /* Build configuration list for PBXProject "Firehose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7313867F24E8759700E39074 /* Debug */,
+				7313868024E8759700E39074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7313868124E8759700E39074 /* Build configuration list for PBXNativeTarget "Firehose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7313868224E8759700E39074 /* Debug */,
+				7313868324E8759700E39074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7313868424E8759700E39074 /* Build configuration list for PBXNativeTarget "FirehoseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7313868524E8759700E39074 /* Debug */,
+				7313868624E8759700E39074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7313868724E8759700E39074 /* Build configuration list for PBXNativeTarget "FirehoseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7313868824E8759700E39074 /* Debug */,
+				7313868924E8759700E39074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7313865024E8759600E39074 /* Project object */;
+}
