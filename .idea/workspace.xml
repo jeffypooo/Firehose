@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f513c354-4f0f-444b-b3d4-3033c91b1faa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Cartfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/add.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/add.imageset/baseline_add_black_36pt_1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/add.imageset/baseline_add_black_36pt_2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/add.imageset/baseline_add_black_36pt_3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/pause.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/pause.imageset/baseline_pause_black_24pt_1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/pause.imageset/baseline_pause_black_24pt_2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/pause.imageset/baseline_pause_black_24pt_3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/play.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/play.imageset/baseline_play_arrow_black_24pt_1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/play.imageset/baseline_play_arrow_black_24pt_2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/play.imageset/baseline_play_arrow_black_24pt_3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/restart.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/restart.imageset/baseline_replay_black_24pt_1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/restart.imageset/baseline_replay_black_24pt_2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/restart.imageset/baseline_replay_black_24pt_3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/stop.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/stop.imageset/baseline_stop_black_24pt_1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/stop.imageset/baseline_stop_black_24pt_2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Assets.xcassets/stop.imageset/baseline_stop_black_24pt_3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Colors.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Colors.xcassets/accent.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Colors.xcassets/backgroundDark.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Colors.xcassets/backgroundLight.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Colors.xcassets/foregroundDark.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Colors.xcassets/foregroundLight.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Colors.xcassets/textSecondary.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Downloads/DataSzie.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Downloads/DownloadController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Downloads/Downloads.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Downloads/Errors.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Downloads/Extensions.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Utils/Logging.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/Utils/VersionUtils.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/View/Add/AddDownloadView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/View/Components/Divider.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/View/ContentView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/View/DownloadCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/View/Extensions/Colors.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firehose/View/List.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Firehose.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Firehose.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Firehose.xcodeproj/xcuserdata/jeffypoo.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Firehose.xcodeproj/xcuserdata/jeffypoo.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Firehose/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Firehose/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Firehose/ContentView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Firehose/Firehose.entitlements" beforeDir="false" afterPath="$PROJECT_DIR$/Firehose/Firehose.entitlements" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Firehose/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Firehose/Info.plist" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="macos_macos_x86_64" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1i3uCAylOdjlguimilv2OVtJJX8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Firehose" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Swift" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Swift" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Firehose" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Firehose" TARGET_NAME="Firehose" CONFIG_NAME="Debug" SCHEME_NAME="Firehose" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="Firehose" RUN_TARGET_NAME="Firehose" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f513c354-4f0f-444b-b3d4-3033c91b1faa" name="Default Changelist" comment="" />
+      <created>1601148469482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601148469482</updated>
+      <workItem from="1601148471436" duration="33713000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1647" y="900" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601149493625">
+      <screen x="0" y="23" width="3795" height="2137" />
+    </state>
+    <state x="1647" y="900" key="#com.intellij.fileTypes.FileTypeChooser/-3840.23.3840.2137/0.23.3795.2137@0.23.3795.2137" timestamp="1601149493625" />
+    <state x="-2749" y="814" key="#com.intellij.ide.util.MemberChooser" timestamp="1601245220127">
+      <screen x="-3840" y="23" width="3840" height="2137" />
+    </state>
+    <state x="-2749" y="814" key="#com.intellij.ide.util.MemberChooser/-3840.23.3840.2137/0.23.3795.2137@-3840.23.3840.2137" timestamp="1601245220127" />
+    <state x="1078" y="814" key="#com.intellij.ide.util.MemberChooser/-3840.23.3840.2137/0.23.3795.2137@0.23.3795.2137" timestamp="1601161865167" />
+    <state width="2518" height="638" key="GridCell.Tab.0.bottom" timestamp="1601247354121">
+      <screen x="-3840" y="23" width="3840" height="2137" />
+    </state>
+    <state width="2518" height="638" key="GridCell.Tab.0.bottom/-3840.23.3840.2137/0.23.3795.2137@-3840.23.3840.2137" timestamp="1601247354121" />
+    <state width="2488" height="638" key="GridCell.Tab.0.bottom/-3840.23.3840.2137/0.23.3795.2137@0.23.3795.2137" timestamp="1601226585531" />
+    <state width="2518" height="638" key="GridCell.Tab.0.center" timestamp="1601247354121">
+      <screen x="-3840" y="23" width="3840" height="2137" />
+    </state>
+    <state width="2518" height="638" key="GridCell.Tab.0.center/-3840.23.3840.2137/0.23.3795.2137@-3840.23.3840.2137" timestamp="1601247354121" />
+    <state width="2488" height="638" key="GridCell.Tab.0.center/-3840.23.3840.2137/0.23.3795.2137@0.23.3795.2137" timestamp="1601226585531" />
+    <state width="2518" height="638" key="GridCell.Tab.0.left" timestamp="1601247354120">
+      <screen x="-3840" y="23" width="3840" height="2137" />
+    </state>
+    <state width="2518" height="638" key="GridCell.Tab.0.left/-3840.23.3840.2137/0.23.3795.2137@-3840.23.3840.2137" timestamp="1601247354120" />
+    <state width="2488" height="638" key="GridCell.Tab.0.left/-3840.23.3840.2137/0.23.3795.2137@0.23.3795.2137" timestamp="1601226585531" />
+    <state width="2518" height="638" key="GridCell.Tab.0.right" timestamp="1601247354121">
+      <screen x="-3840" y="23" width="3840" height="2137" />
+    </state>
+    <state width="2518" height="638" key="GridCell.Tab.0.right/-3840.23.3840.2137/0.23.3795.2137@-3840.23.3840.2137" timestamp="1601247354121" />
+    <state width="2488" height="638" key="GridCell.Tab.0.right/-3840.23.3840.2137/0.23.3795.2137@0.23.3795.2137" timestamp="1601226585531" />
+    <state x="-3192" y="715" width="1335" height="788" key="SettingsEditor" timestamp="1601230144298">
+      <screen x="-3840" y="23" width="3840" height="2137" />
+    </state>
+    <state x="-3192" y="715" key="SettingsEditor/-3840.23.3840.2137/0.23.3795.2137@-3840.23.3840.2137" timestamp="1601230144298" />
+    <state x="640" y="715" width="1335" height="788" key="SettingsEditor/-3840.23.3840.2137/0.23.3795.2137@0.23.3795.2137" timestamp="1601152218356" />
+    <state x="1078" y="1012" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601154900066">
+      <screen x="0" y="23" width="3795" height="2137" />
+    </state>
+    <state x="1078" y="1012" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-3840.23.3840.2137/0.23.3795.2137@0.23.3795.2137" timestamp="1601154900066" />
+    <state x="-2899" y="528" width="678" height="676" key="search.everywhere.popup" timestamp="1601242795281">
+      <screen x="-3840" y="23" width="3840" height="2137" />
+    </state>
+    <state x="-2899" y="528" width="678" height="676" key="search.everywhere.popup/-3840.23.3840.2137/0.23.3795.2137@-3840.23.3840.2137" timestamp="1601242795281" />
+    <state x="930" y="528" width="670" height="676" key="search.everywhere.popup/-3840.23.3840.2137/0.23.3795.2137@0.23.3795.2137" timestamp="1601153350981" />
+  </component>
+</project>

@@ -14,6 +14,23 @@
 		7313866624E8759700E39074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7313866424E8759700E39074 /* Main.storyboard */; };
 		7313867224E8759700E39074 /* FirehoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313867124E8759700E39074 /* FirehoseTests.swift */; };
 		7313867D24E8759700E39074 /* FirehoseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313867C24E8759700E39074 /* FirehoseUITests.swift */; };
+		7313868B24E87A2400E39074 /* DownloadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313868A24E87A2400E39074 /* DownloadCell.swift */; };
+		7313869024E8B51800E39074 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7313868F24E8B51800E39074 /* Colors.xcassets */; };
+		7313873924E9A0DC00E39074 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313873824E9A0DC00E39074 /* List.swift */; };
+		7346123A251FD94A00D99340 /* CleanroomLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73461239251FD94A00D99340 /* CleanroomLogger.framework */; };
+		7346123B251FD94A00D99340 /* CleanroomLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 73461239251FD94A00D99340 /* CleanroomLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7346123E251FD95600D99340 /* CleanroomLogger.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7346123D251FD95600D99340 /* CleanroomLogger.framework.dSYM */; };
+		95F651282A21CB0BD89AC293 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F65AD6F4098CEF0C132A53 /* Errors.swift */; };
+		95F651E21D2A7A8D0E33E72B /* VersionUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F65F07FD8FF9AE422E8F04 /* VersionUtils.swift */; };
+		95F6534D4F784BAABF5E1BA1 /* AddDownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F6537300E4E522838D7083 /* AddDownloadView.swift */; };
+		95F656656FD4924D88951C80 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F65372B68DB18E34DCACDA /* Colors.swift */; };
+		95F65690C1ADCFB5D93B6522 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F65C84EAF95D9ED61FC750 /* Extensions.swift */; };
+		95F6593E354F103C0F31C3AC /* Divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F6562CA9BE99001ABE117C /* Divider.swift */; };
+		95F65B91F19E963CD2984563 /* DownloadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F65F5547E23B791CC00A7C /* DownloadController.swift */; };
+		95F65BEBDDD0004F54B8CA38 /* Downloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F6590500240F640E0F08AD /* Downloads.swift */; };
+		95F65C70428E955AFF72923E /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F653F043B2298FA2730914 /* Text.swift */; };
+		95F65E746F347E2389B5FBD7 /* DataSzie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F658FC667EA9FFD307D740 /* DataSzie.swift */; };
+		95F65F862D5FBE9D9691153D /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F65D6D92ED924E0C523DF1 /* Logging.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +50,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7346122A251FD2E400D99340 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				7346123E251FD95600D99340 /* CleanroomLogger.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7346123C251FD94A00D99340 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7346123B251FD94A00D99340 /* CleanroomLogger.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		7313865824E8759600E39074 /* Firehose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firehose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7313865B24E8759600E39074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +89,25 @@
 		7313867824E8759700E39074 /* FirehoseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirehoseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7313867C24E8759700E39074 /* FirehoseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirehoseUITests.swift; sourceTree = "<group>"; };
 		7313867E24E8759700E39074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7313868A24E87A2400E39074 /* DownloadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadCell.swift; sourceTree = "<group>"; };
+		7313868F24E8B51800E39074 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		7313873824E9A0DC00E39074 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		73461224251FD2CC00D99340 /* NSLoggerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSLoggerSwift.framework; path = Carthage/Build/Mac/NSLoggerSwift.framework; sourceTree = "<group>"; };
+		7346122B251FD33000D99340 /* NSLoggerSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = NSLoggerSwift.framework.dSYM; path = Carthage/Build/Mac/NSLoggerSwift.framework.dSYM; sourceTree = "<group>"; };
+		73461239251FD94A00D99340 /* CleanroomLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleanroomLogger.framework; path = Carthage/Build/Mac/CleanroomLogger.framework; sourceTree = "<group>"; };
+		7346123D251FD95600D99340 /* CleanroomLogger.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = CleanroomLogger.framework.dSYM; path = Carthage/Build/Mac/CleanroomLogger.framework.dSYM; sourceTree = "<group>"; };
+		95F65372B68DB18E34DCACDA /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		95F6537300E4E522838D7083 /* AddDownloadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDownloadView.swift; sourceTree = "<group>"; };
+		95F653F043B2298FA2730914 /* Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		95F6562CA9BE99001ABE117C /* Divider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Divider.swift; sourceTree = "<group>"; };
+		95F658FC667EA9FFD307D740 /* DataSzie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSzie.swift; sourceTree = "<group>"; };
+		95F6590500240F640E0F08AD /* Downloads.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloads.swift; sourceTree = "<group>"; };
+		95F65AD6F4098CEF0C132A53 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		95F65C84EAF95D9ED61FC750 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		95F65D62EF4B76CDF96C2A7F /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		95F65D6D92ED924E0C523DF1 /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		95F65F07FD8FF9AE422E8F04 /* VersionUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionUtils.swift; sourceTree = "<group>"; };
+		95F65F5547E23B791CC00A7C /* DownloadController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7346123A251FD94A00D99340 /* CleanroomLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,10 +139,14 @@
 		7313864F24E8759600E39074 = {
 			isa = PBXGroup;
 			children = (
+				7346123D251FD95600D99340 /* CleanroomLogger.framework.dSYM */,
+				7346122B251FD33000D99340 /* NSLoggerSwift.framework.dSYM */,
 				7313865A24E8759600E39074 /* Firehose */,
 				7313867024E8759700E39074 /* FirehoseTests */,
 				7313867B24E8759700E39074 /* FirehoseUITests */,
 				7313865924E8759600E39074 /* Products */,
+				95F65D62EF4B76CDF96C2A7F /* Cartfile */,
+				73461223251FD2CC00D99340 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,13 +163,17 @@
 		7313865A24E8759600E39074 /* Firehose */ = {
 			isa = PBXGroup;
 			children = (
+				7313873724E9A0A100E39074 /* View */,
+				7313866824E8759700E39074 /* Firehose.entitlements */,
+				7313866724E8759700E39074 /* Info.plist */,
 				7313865B24E8759600E39074 /* AppDelegate.swift */,
-				7313865D24E8759600E39074 /* ContentView.swift */,
 				7313865F24E8759700E39074 /* Assets.xcassets */,
 				7313866424E8759700E39074 /* Main.storyboard */,
-				7313866724E8759700E39074 /* Info.plist */,
-				7313866824E8759700E39074 /* Firehose.entitlements */,
+				7313868C24E883E000E39074 /* Model */,
 				7313866124E8759700E39074 /* Preview Content */,
+				7313868F24E8B51800E39074 /* Colors.xcassets */,
+				95F65CA63D774D3B0C23823D /* Utils */,
+				95F65B8614DEF01CCAB8A252 /* Downloads */,
 			);
 			path = Firehose;
 			sourceTree = "<group>";
@@ -135,6 +204,81 @@
 			path = FirehoseUITests;
 			sourceTree = "<group>";
 		};
+		7313868C24E883E000E39074 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7313873724E9A0A100E39074 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7313868A24E87A2400E39074 /* DownloadCell.swift */,
+				7313865D24E8759600E39074 /* ContentView.swift */,
+				7313873824E9A0DC00E39074 /* List.swift */,
+				95F6555023EE2C16FD6DB7C3 /* Components */,
+				95F65E31A73A30C308B15F7F /* Extensions */,
+				95F652D978F71A7E91AA2F02 /* Add */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73461223251FD2CC00D99340 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73461239251FD94A00D99340 /* CleanroomLogger.framework */,
+				73461224251FD2CC00D99340 /* NSLoggerSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95F652D978F71A7E91AA2F02 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				95F6537300E4E522838D7083 /* AddDownloadView.swift */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		95F6555023EE2C16FD6DB7C3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				95F6562CA9BE99001ABE117C /* Divider.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		95F65B8614DEF01CCAB8A252 /* Downloads */ = {
+			isa = PBXGroup;
+			children = (
+				95F6590500240F640E0F08AD /* Downloads.swift */,
+				95F65F5547E23B791CC00A7C /* DownloadController.swift */,
+				95F65C84EAF95D9ED61FC750 /* Extensions.swift */,
+				95F65AD6F4098CEF0C132A53 /* Errors.swift */,
+				95F658FC667EA9FFD307D740 /* DataSzie.swift */,
+			);
+			path = Downloads;
+			sourceTree = "<group>";
+		};
+		95F65CA63D774D3B0C23823D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				95F65F07FD8FF9AE422E8F04 /* VersionUtils.swift */,
+				95F65D6D92ED924E0C523DF1 /* Logging.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		95F65E31A73A30C308B15F7F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				95F653F043B2298FA2730914 /* Text.swift */,
+				95F65372B68DB18E34DCACDA /* Colors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +289,8 @@
 				7313865424E8759600E39074 /* Sources */,
 				7313865524E8759600E39074 /* Frameworks */,
 				7313865624E8759600E39074 /* Resources */,
+				7346122A251FD2E400D99340 /* CopyFiles */,
+				7346123C251FD94A00D99340 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,7 +344,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Jefferson Jones";
 				TargetAttributes = {
 					7313865724E8759600E39074 = {
@@ -240,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7313866624E8759700E39074 /* Main.storyboard in Resources */,
+				7313869024E8B51800E39074 /* Colors.xcassets in Resources */,
 				7313866324E8759700E39074 /* Preview Assets.xcassets in Resources */,
 				7313866024E8759700E39074 /* Assets.xcassets in Resources */,
 			);
@@ -267,7 +414,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				7313865E24E8759600E39074 /* ContentView.swift in Sources */,
+				7313873924E9A0DC00E39074 /* List.swift in Sources */,
 				7313865C24E8759600E39074 /* AppDelegate.swift in Sources */,
+				7313868B24E87A2400E39074 /* DownloadCell.swift in Sources */,
+				95F651E21D2A7A8D0E33E72B /* VersionUtils.swift in Sources */,
+				95F65F862D5FBE9D9691153D /* Logging.swift in Sources */,
+				95F6593E354F103C0F31C3AC /* Divider.swift in Sources */,
+				95F65C70428E955AFF72923E /* Text.swift in Sources */,
+				95F656656FD4924D88951C80 /* Colors.swift in Sources */,
+				95F6534D4F784BAABF5E1BA1 /* AddDownloadView.swift in Sources */,
+				95F65BEBDDD0004F54B8CA38 /* Downloads.swift in Sources */,
+				95F65B91F19E963CD2984563 /* DownloadController.swift in Sources */,
+				95F65690C1ADCFB5D93B6522 /* Extensions.swift in Sources */,
+				95F651282A21CB0BD89AC293 /* Errors.swift in Sources */,
+				95F65E746F347E2389B5FBD7 /* DataSzie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +500,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -400,6 +561,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -432,12 +594,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Firehose/Firehose.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Firehose/Preview Content\"";
 				DEVELOPMENT_TEAM = 37R6FCG424;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = Firehose/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,12 +622,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Firehose/Firehose.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Firehose/Preview Content\"";
 				DEVELOPMENT_TEAM = 37R6FCG424;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = Firehose/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
